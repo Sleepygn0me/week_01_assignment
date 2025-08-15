@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  position: fixed;
+  color: white;
+  font-size: 30px;
+  background-color: grey;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: right;
+  z-index: 1;
+}
+main {
+  background-image: url(Elden_ring_background.png);
+  background-size: cover;
+  padding: 300px;
+  background-position: center;
+}
+
+footer {
+  background: grey;
+  text-align: center;
+  color: #ffffff;
+  padding: 40px;
+}
