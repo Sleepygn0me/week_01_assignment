@@ -28,12 +28,16 @@ main {
   background-position: center;
 }
 
-.title {
-  position: relative;
+.overlay {
+  position: absolute;
+  top: 5%;
+  left: 14px;
   display: flex;
   flex-direction: column;
-  color: rgb(0, 0, 0);
-  max-width: 100%;
+  max-width: 80%;
+  background-color: white;
+  opacity: 80%;
+  padding: 16;
 }
 
 .text-box {
@@ -48,6 +52,7 @@ main {
   flex-direction: column;
   justify-content: center;
 }
+
 .sale:hover {
   cursor: pointer;
 }
